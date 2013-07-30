@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\ÁúÂö¼ÓÃÜËøÑĞ¾¿\Project2\Project2.uvproj
+Project File Date:  07/30/2013
+
+<h2>Output:</h2>
+Build target 'Project2'
+assembling startup.s...
+compiling main.c...
+main.c(32): error:  #20: identifier "n" is undefined
+main.c:         for(i=0 ; i<n ; i++)
+main.c:                     ^
+main.c(38): error:  #20: identifier "temp" is undefined
+main.c:                     temp=arr[j];
+main.c:                     ^
+main.c(38): error:  #20: identifier "arr" is undefined
+main.c:                     temp=arr[j];
+main.c:                          ^
+main.c(44): error: At end of source:  #67: expected a "}"
+main.c: main.c: 0 warnings, 4 errors
+compiling smartx3_system.c...
+Target not created
+Build target 'Project2'
+compiling main.c...
+main.c(38): error:  #20: identifier "temp" is undefined
+main.c:                     temp=arr[j];
+main.c:                     ^
+main.c(38): error:  #20: identifier "arr" is undefined
+main.c:                     temp=arr[j];
+main.c:                          ^
+main.c(44): error: At end of source:  #67: expected a "}"
+main.c: main.c: 0 warnings, 3 errors
+Target not created
+Build target 'Project2'
+compiling main.c...
+main.c(38): error:  #20: identifier "arr" is undefined
+main.c:                     temp=arr[j];
+main.c:                          ^
+main.c(44): error: At end of source:  #67: expected a "}"
+main.c: main.c: 0 warnings, 2 errors
+Target not created
+Build target 'Project2'
+compiling main.c...
+main.c(38): error:  #20: identifier "arr" is undefined
+main.c:                     temp=arr[j];
+main.c:                          ^
+main.c(44): error: At end of source:  #67: expected a "}"
+main.c: main.c: 0 warnings, 2 errors
+Target not created
+Build target 'Project2'
+compiling main.c...
+main.c(44): error: At end of source:  #67: expected a "}"
+main.c: main.c: 0 warnings, 1 error
+Target not created
+Build target 'Project2'
+compiling main.c...
+main.c(44): error: At end of source:  #67: expected a "}"
+main.c: main.c: 0 warnings, 1 error
+Target not created
+Build target 'Project2'
+compiling main.c...
+main.c(44): error: At end of source:  #67: expected a "}"
+main.c: main.c: 0 warnings, 1 error
+Target not created
+Build target 'Project2'
+compiling main.c...
+main.c(26): warning: C3017W: n may be used before being set
+main.c:     int j,i,n,temp;
+main.c:             ^
+main.c: main.c: 1 warning, 0 errors
+linking...
+Program Size: Code=184 RO-data=80 RW-data=0 ZI-data=1044  
+User command #1: fromelf.exe --bin -o  ./Project2.bin  ./Project2.axf
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Project2'
+compiling main.c...
+linking...
+Program Size: Code=184 RO-data=80 RW-data=0 ZI-data=1044  
+User command #1: fromelf.exe --bin -o  ./Project2.bin  ./Project2.axf
+"Project2.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Project2'
+compiling main.c...
+linking...
+Program Size: Code=164 RO-data=80 RW-data=0 ZI-data=1044  
+User command #1: fromelf.exe --bin -o  ./Project2.bin  ./Project2.axf
+"Project2.axf" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,146 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [C:\龙脉加密锁研究\Project3\Project3.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image C:\龙脉加密锁研究\Project3\Project3.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 4.1 [Build 481]: Last Updated: Tue Jul 30 16:17:24 2013
+<BR><P>
+<H3>Maximum Stack Usage =        112 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; smart_write_file &rArr; smart_write_flash
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[1]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1]">NMI_Handler</a><BR>
+ <LI><a href="#[2]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[2]">HardFault_Handler</a><BR>
+ <LI><a href="#[3]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3]">SVC_Handler</a><BR>
+ <LI><a href="#[4]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4]">PendSV_Handler</a><BR>
+ <LI><a href="#[5]">SysTick_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[5]">SysTick_Handler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[0]">Reset_Handler</a> from startup.o(.text) referenced from startup.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from startup.o(.text) referenced from startup.o(RESET)
+ <LI><a href="#[2]">HardFault_Handler</a> from startup.o(.text) referenced from startup.o(RESET)
+ <LI><a href="#[3]">SVC_Handler</a> from startup.o(.text) referenced from startup.o(RESET)
+ <LI><a href="#[4]">PendSV_Handler</a> from startup.o(.text) referenced from startup.o(RESET)
+ <LI><a href="#[5]">SysTick_Handler</a> from startup.o(.text) referenced from startup.o(RESET)
+ <LI><a href="#[6]">main</a> from main.o(.text) referenced from entry7.o(.ARM.Collect$$$$00000007)
+ <LI><a href="#[7]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup.o(.text)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[7]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(.text)
+</UL>
+<P><STRONG><a name="[f]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[8]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[e]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[10]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7.o(.ARM.Collect$$$$00000007))
+
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>main</STRONG> (Thumb, 84 bytes, Stack size 40 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = main &rArr; smart_write_file &rArr; smart_write_flash
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smart_write_file
+<LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smart_read_file
+<LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smart_open_file
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry7.o(.ARM.Collect$$$$00000007)
+</UL>
+<P><STRONG><a name="[a]"></a>smart_open_file</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, smart_fs_orf.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b]"></a>smart_read_file</STRONG> (Thumb, 54 bytes, Stack size 12 bytes, smart_fs_orf.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = smart_read_file
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[11]"></a>smart_get_filesize</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, smart_fs_orf.o(.text), UNUSED)
+
+<P><STRONG><a name="[12]"></a>smart_close_file</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, smart_fs_orf.o(.text), UNUSED)
+
+<P><STRONG><a name="[c]"></a>smart_write_file</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, smart_fs_wf.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = smart_write_file &rArr; smart_write_flash
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smart_write_flash
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[d]"></a>smart_write_flash</STRONG> (Thumb, 214 bytes, Stack size 56 bytes, smart_write_eflash.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = smart_write_flash
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smart_write_file
+</UL>
+
+<P><STRONG><a name="[9]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[13]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[14]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[15]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[16]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

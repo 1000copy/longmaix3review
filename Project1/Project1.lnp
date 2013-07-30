@@ -1,0 +1,4 @@
+--cpu Cortex-M0 "startup.o" "main.o" "smartx3_system.o" ".\SmartX3_Core\SmartX3.lib" ".\SmartX3_Core\SmartX3Libc.lib" --library_type=microlib --strict --scatter "Project1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Project1.map" -o "Project1.axf"

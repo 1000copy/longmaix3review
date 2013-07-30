@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<SmartX3>
+	<Project>
+		<Name>UHJvamVjdDE=</Name>
+		<Path>QzpcwfrC9rzTw9zL+NHQvr9cUHJvamVjdDFcUHJvamVjdDEuWHByb2o=</Path>
+		<CreateTime>MjAxMy0wNy0zMCAxNTo0MzowOA==</CreateTime>
+		<LastModified>MjAxMy0wNy0zMCAxNTo1MDozNg==</LastModified>
+		<DetaFileNumber>MCC49g==</DetaFileNumber>
+		<DetaFileSize>MCDX1r3a</DetaFileSize>
+		<AppFileNumber>MSC49g==</AppFileNumber>
+		<AppFileSize>MjA4INfWvdo=</AppFileSize>
+		<Note>uaSzzMPoyvYNCg0K</Note>
+	</Project>
+	<KeyBaseInfo>
+		<SuperPin>YWRtaW4=</SuperPin>
+		<AppId>TXlBcHBsaWNhdGlvbg==</AppId>
+		<USB_Bubble>U21hcnRY</USB_Bubble>
+		<Version ver1="MA==" ver2="MA==" ver3="MA==" ver4="MA=="/>
+	</KeyBaseInfo>
+	<DataFiles/>
+	<AppFiles>
+		<AppFile id="MA==" FileName="UHJvamVjdDEuYmlu" FileSize="MjA4" FilePath="LlxQcm9qZWN0MS5iaW4=" Note="" FileDataBase64="AAgAaFUAAABZAAAAWwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdAAAAAAAAAAAAAABf
+AAAAYQAAAANIhUYA8Bj4AEgAR2kAAAAACABoA0gAR/7n/uf+5/7n/ucAAEEAAAACSQhoQBwIYEAc
+cEcAAABoBkwBJQZOBeAgRuNoB8grQ5hHEDS0QvfT//fa/7wAAADMAAAAAuAIyBIfCMEAKvrRcEdw
+RwAgAeABwRIfACr70XBHAADMAAAAAAQAaAAEAACsAAAAAAAAAA==" ParamBase64="LyoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKg0KKs3isr+x
+5MG/OgnKx9Om08PI7bz+1tCx5MG/tcTTs8nkLA0KKgkJCcbk1rW1xLHku6+74be006a1vdOm08PI
+7bz+ttTTprHkwb/W0C4NCioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioq
+KioqKioqKi8NCmludCAgICAgICAgICAgICAgICBzcmM7DQo=" FileMD5="035e746107068ed06e0e34b10397e28a"/>
+	</AppFiles>
+	<IAToken>
+		<UserPin>MTIzNDU2Nzg=</UserPin>
+		<SH1Seed Seed="RkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkY=" Mode="MA=="/>
+		<TriDESKey>RkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZG</TriDESKey>
+	</IAToken>
+	<TimerInfo>
+		<EndDateTime Year="2013" Month="8" Day="29" Hour="15" Minute="43" Second="8"/>
+		<RemoteSeed Seed="" Mode="MA=="/>
+		<TimerUpdate>0</TimerUpdate>
+	</TimerInfo>
+</SmartX3>

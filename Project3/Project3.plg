@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\¡˙¬ˆº”√‹À¯—–æø\Project3\Project3.uvproj
+Project File Date:  07/30/2013
+
+<h2>Output:</h2>
+Build target 'Project3'
+assembling startup.s...
+compiling main.c...
+main.c(33): error:  #268: declaration may not appear after executable statement in block
+main.c:          int j,i,n,temp;
+main.c:          ^
+main.c: main.c: 0 warnings, 1 error
+compiling smartx3_system.c...
+Target not created
+Build target 'Project3'
+compiling main.c...
+linking...
+Project3.sct(15): warning: L6329W: Pattern smartx3_system.o(ZI) only matches removed unused sections.
+Project3.sct(15): warning: L6314W: No section matches pattern smartx3_system.o(RW).
+Program Size: Code=572 RO-data=80 RW-data=0 ZI-data=3072  
+Project3.sct: Finished: 0 information, 2 warning and 0 error messages.
+User command #1: fromelf.exe --bin -o  ./Project3.bin  ./Project3.axf
+"Project3.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Project3'
+linking...
+Project3.sct(15): warning: L6329W: Pattern smartx3_system.o(ZI) only matches removed unused sections.
+Project3.sct(15): warning: L6314W: No section matches pattern smartx3_system.o(RW).
+Program Size: Code=572 RO-data=80 RW-data=0 ZI-data=3072  
+Project3.sct: Finished: 0 information, 2 warning and 0 error messages.
+User command #1: fromelf.exe --bin -o  ./Project3.bin  ./Project3.axf
+"Project3.axf" - 0 Error(s), 2 Warning(s).

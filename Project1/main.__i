@@ -1,0 +1,1 @@
+-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I..\ -I.\SmartX3_Core -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ARM" -o "main.o" --omf_browse "main.crf" --depend "main.d" "main.c"
